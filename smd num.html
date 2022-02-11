@@ -1,0 +1,40 @@
+<html>
+ <head>
+  <body>
+ <center> <h1> Escribe los numeros a Sumar,Multiplicacion y Division </h1> </center>
+<p></p><p></p> <label> Numero 1 </label> 
+<input type="text" id="num1" num1="num1>"
+<p></p><p></p><lable onmousemove="=backgroundcolor"this.backgroundcolor='blue'onmouseout="this.backgroundcolor=''">
+     Numero 2</lable>
+<input type="text" id="num2" num2="num2">
+<input type="button" onclick="suma();" value="sumar">
+<input type="button" onclick="multiplicacion();" value="multiplicar">
+<input type="button" onclick="Division();" value="Dividir"
+ onmouseover="this.backgroundcolor='black'"onmouseout="this.backgroundcolor=''">
+  </body>
+  <script> 
+function suma (){
+    var num1=
+    document.getElementById('num1').value;
+    var num2 = document.getElementById ('num2').value;
+    var suma = parseInt (num1) + parseInt (num2);
+    alert("La suma es:"+suma )
+}
+function multiplicacion(){
+var num1= 
+document.getElementById ('num1').value;
+var num2 = document.getElementById ('num2').value;
+var Multiplicacion = parseInt (num1) * parseInt (num2);
+alert ("La multiplicacion es:" +Multiplicacion)
+}
+function Division(){
+var num1=
+document.getElementById('num1').value;
+var num2 = document.getElementById ('num2').value;
+var Division = parseInt (num1) / parseInt (num2);
+alert("La division es:"+Division)
+
+}
+</script>
+ </head>
+</html>
